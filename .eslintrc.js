@@ -12,8 +12,7 @@ module.exports = {
         "sourceType": "module"
     },
     "plugins": [
-        "react",
-        "styled-components-config"
+        "react"
     ],
     "rules": {
         "indent": [
@@ -32,7 +31,7 @@ module.exports = {
             "error",
             "always"
         ],
-        // "styled-components-config/rule-name": 2,
+        "react/jsx-uses-react": 2,
         "react/jsx-uses-vars": 2
     }
 };
