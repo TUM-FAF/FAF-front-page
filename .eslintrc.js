@@ -32,6 +32,7 @@ module.exports = {
             "error",
             "always"
         ],
-        "styled-components-config/rule-name": 2
+        // "styled-components-config/rule-name": 2,
+        "react/jsx-uses-vars": 2
     }
 };
