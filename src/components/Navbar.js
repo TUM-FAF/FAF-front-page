@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
+/**
+ * Styled html elements for the navigation bar.
+ */
 const NavbarContainer = styled.div`
   background-color: #222831;
   color: #FFFFFF;
@@ -14,13 +17,13 @@ const LogoContainer = styled.div`
   flex-grow: 1;
 `;
 
-const NavLinks = styled.ul`
+const NavList = styled.ul`
   list-style-type: none;
   display: flex;
   margin: 16px 50px;
 `;
 
-const NavLinksEl = styled.li`
+const NavListEl = styled.li`
   margin: 0 10px;
 
   a {
@@ -28,16 +31,19 @@ const NavLinksEl = styled.li`
   }
 `;
 
+/**
+ * The component that represents the navigation bar.
+ */
 class Navbar extends Component {
   render() {
     return (
       <NavbarContainer>
         <LogoContainer>Logo</LogoContainer>
-        <NavLinks>
-          <NavLinksEl><Link to='/main'>Main</Link></NavLinksEl>
-          <NavLinksEl><Link to='/about'>About</Link></NavLinksEl>
-          <NavLinksEl><Link to='/contacts'>Contacts</Link></NavLinksEl>
-        </NavLinks>
+        <NavList>
+          <NavListEl><Link to='/main'>Main</Link></NavListEl>
+          <NavListEl><Link to='/about'>About</Link></NavListEl>
+          <NavListEl><Link to='/contacts'>Contacts</Link></NavListEl>
+        </NavList>
       </NavbarContainer>
     );
   }
