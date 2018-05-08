@@ -5,13 +5,13 @@ This repo contains all the code for our landing page, [here](http://faf.utm.md).
 Perhaps it doesn't work, because we're not done, so stay tuned, or even better - contribute :smile:.
 
 Table of contents:
-- [Dependencies](README.md#Dependencies)
-- [Start project](README.md#Start_project)
-- [How to contribute](README.md#How_to_contribute)
-- [Licence](README.md#Licence)
+- [Dependencies](#dependencies)
+- [Start project](#start-project)
+- [How to contribute](#how-to-contribute)
+- [Licence](#licence)
 
 ## Dependencies
-We're building our landing page using [ReactJS](https://reactjs.org/). For now seems that that's all, eventually we might add some more, because JS and #shinyNewToys. Besides, we use pure ES6, without any JS features not-yet-in-the-standard-spec.
+We're building our landing page using [ReactJS](https://reactjs.org/). For now seems that that's all, eventually, we might add some more, because of JS and #shinyNewToys. Besides, we use pure ES6, without any JS features not-yet-in-the-standard-spec.
 
 ## Start project
 ```bash
