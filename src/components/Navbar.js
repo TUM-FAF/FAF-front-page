@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
@@ -32,21 +32,17 @@ const NavListEl = styled.li`
 `;
 
 /**
- * The component that represents the navigation bar.
+ * The functional component that represents the navigation bar.
  */
-class Navbar extends Component {
-  render() {
-    return (
-      <NavbarContainer>
-        <LogoContainer>Logo</LogoContainer>
-        <NavList>
-          <NavListEl><Link to='/main'>Main</Link></NavListEl>
-          <NavListEl><Link to='/about'>About</Link></NavListEl>
-          <NavListEl><Link to='/contacts'>Contacts</Link></NavListEl>
-        </NavList>
-      </NavbarContainer>
-    );
-  }
-}
+const Navbar = () => (
+  <NavbarContainer>
+    <LogoContainer>Logo</LogoContainer>
+    <NavList>
+      <NavListEl><Link to='/main'>Main</Link></NavListEl>
+      <NavListEl><Link to='/about'>About</Link></NavListEl>
+      <NavListEl><Link to='/contacts'>Contacts</Link></NavListEl>
+    </NavList>
+  </NavbarContainer>
+);
 
 export default Navbar;
