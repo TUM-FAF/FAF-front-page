@@ -5,7 +5,7 @@ title: FAF front page
 description: >
   Facem ceva cu tolk.
 baseurl: "FAF-front-page"		# no trailing slash
-url: "FAF-front-page"	# no trailing slash
+url: ""	# no trailing slash
 excerpt_separator: <!--more—->
 
 about: >
