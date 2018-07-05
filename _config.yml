@@ -4,8 +4,8 @@ title: FAF front page
 # email: your-email@domain.com
 description: >
   Facem ceva cu tolk.
-baseurl: "https://tum-faf.github.io/FAF-front-page"		# no trailing slash
-url: ""	# no trailing slash
+baseurl: "FAF-front-page"		# no trailing slash
+url: "https://tum-faf.github.io/"	# no trailing slash
 excerpt_separator: <!--more—->
 
 about: >
