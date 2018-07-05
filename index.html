@@ -1,0 +1,31 @@
+---
+layout: default
+title: "Rebble"
+date:   2015-06-12 11:56:42
+
+permalink: /
+---
+<div id="posts">
+    {% for post in site.posts limit:5 %}
+        <article class="post">
+            <div class="text-content">
+                <p class="metadata">{{ post.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+                <h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+                {{ post.excerpt }}
+            </div>
+        </article>
+    {% endfor %}
+</div>
+{% if site.posts == 0 %}
+    <section>
+        <div class="text-content">
+            <p><em>There's nothing here (yet...)</em></p>
+            <p>
+                In the meantime, check out the <a href="https://www.facebook.com/FAF.UTM/">
+                    Facebook page</a>
+            </p>
+            {% include mailinglist.html %}
+        </div>
+    </section>
+    <style> footer { display: none; } </style>
+{% endif %}

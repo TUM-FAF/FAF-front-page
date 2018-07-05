@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="">
+    <head>
+    <meta charset="utf-8">
+    <title>FAF front page · Status</title>
+    <meta name="description" content="Facem ceva cu tolk.
+"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+    <link rel="alternate" type="application/rss+xml" title="FAF front page" href="http://localhost:4000/feed.xml" />
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <link rel="stylesheet" href="/css/common.css">
+
+    <meta name="theme-color" content="#373a3c">
+</head>
+
+    <body>
+        <header>
+    <img src="http://localhost:4000/images/faf_logo2.png" id="faf_logo">
+    <span class="headertext">
+        <span class="sitename"><a href="http://localhost:4000/">FAF front page</a></span>
+        
+            <span class="separator">·</span>
+            <span class="pagename">Status</span>
+        
+    </span>
+</header>
+
+        <ul id="index">
+    
+        <li>
+            <a 
+               
+                   href="http://localhost:4000/"
+               
+               >home
+            </a>
+        </li>
+    
+        <li>
+            <a 
+               
+                   href="http://localhost:4000/faq/"
+               
+               >faq
+            </a>
+        </li>
+    
+        <li>
+            <a 
+               
+                   href="http://localhost:4000/fafngo/"
+               
+               >faf ngo
+            </a>
+        </li>
+    
+        <li>
+            <a 
+               
+                   href="http://localhost:4000/projects/"
+               
+               >projects
+            </a>
+        </li>
+    
+</ul>
+
+        <section>
+    <div class="text-content">
+        <h2 id="status">Status</h2>
+
+<p>This page contains a list of Pebble’s backend services, their status, and
+the status of work towards a replacement. It will be updated as new
+developments occur.</p>
+
+<style>
+    .grayed {
+        color: #888;
+        font-size: 70%;
+    }
+    section table {
+        border-collapse: collapse;
+    }
+    section table td {
+        font-size: 90%;
+        padding: .5rem .7rem;
+        border: 1px solid #888;
+        line-height: 1.4em;
+        width: 43%;
+    }
+    section table td:first-child {
+        font-size: 80%;
+        min-width: 12rem;
+            width: 12rem;
+        max-width: 12rem;
+        border-left: none;
+        text-align: right;
+    }
+    section table td:last-child {
+        border-right: none;
+    }
+    section table tr:last-child td {
+        border-bottom: none;
+    }
+</style>
+
+<table>
+  <thead>
+    <tr>
+      <th>url</th>
+      <th>description</th>
+      <th>replacement</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>boot.<span class="grayed">getpebble.com</span></td>
+      <td>Provides API endpoints to clients.</td>
+      <td>Very simple, becomes necessary as soon as community replacement services exist. <a href="https://github.com/pebble-dev/wiki/wiki/Mobile-Application-URI-Bootstrap">Experimentation ongoing.</a></td>
+    </tr>
+    <tr>
+      <td>auth.<span class="grayed">getpebble.com</span><br />auth-api.<span class="grayed">getpebble.com</span></td>
+      <td>Authorization endpoints.</td>
+      <td>May not be necessary given a new mobile app.</td>
+    </tr>
+    <tr>
+      <td>dev-portal.<span class="grayed">getpebble.com</span></td>
+      <td>Developer portal.</td>
+      <td>Replacement will be a part of The Rebble Store.</td>
+    </tr>
+    <tr>
+      <td>pb-collector.<span class="grayed">getpebble.com</span></td>
+      <td>???</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>lp.<span class="grayed">getpebble.com</span></td>
+      <td>Language packs.</td>
+      <td>Low priority. Format seems to be mostly understood.</td>
+    </tr>
+    <tr>
+      <td>apps.<span class="grayed">getpebble.com</span><br />appstore-api.<span class="grayed">getpebble.com</span></td>
+      <td>App Store.</td>
+      <td>To be replaced by <a href="https://github.com/pebble-dev/rebble-store/">The Rebble Store</a>.</td>
+    </tr>
+    <tr>
+      <td>help.<span class="grayed">getpebble.com</span><br />appstore-api.<span class="grayed">getpebble.com</span></td>
+      <td>Support pages.</td>
+      <td>Not in immediate danger. Archive.org should suffice.</td>
+    </tr>
+    <tr>
+      <td>cloudpebble.net</td>
+      <td>Cloud-based IDE.</td>
+      <td>CloudPebble is open source and will continue as a community project once it once it goes down. <strong><em>However</em></strong>, you should definitely <a href="https://www.reddit.com/r/pebble/comments/5h61om/bulk_cloudpebble_project_export/">export your CloudPebble projects for local safekeeping!</a></td>
+    </tr>
+    <tr>
+      <td>timeline-sync.<span class="grayed">getpebble.com</span><br />timeline-api.<span class="grayed">getpebble.com</span></td>
+      <td>Timeline servers.</td>
+      <td>Will continue to be maintained for an indefinite amount of time. Community replacement possible, but very low-priority.</td>
+    </tr>
+    <tr>
+      <td>cohorts.<span class="grayed">getpebble.com</span></td>
+      <td>???</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><em>various Nuance servers</em></td>
+      <td>Dictation support.</td>
+      <td>Continued Nuance support is unlikely due to prohibitive price. Possible replacements include android’s built-in dictation SDK.</td>
+    </tr>
+    <tr>
+      <td>sms-api.<span class="grayed">getpebble.com</span></td>
+      <td>Outgoing text messages for iOS.</td>
+      <td>Community replacement unlikely due to difficulty of dealing with cell carriers.</td>
+    </tr>
+    <tr>
+      <td>linked-accounts.<span class="grayed">getpebble.com</span></td>
+      <td>Account linking? (very mysterious)</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>email-actions-api.<span class="grayed">getpebble.com</span></td>
+      <td>Most likely gmail actions.</td>
+      <td>Community replacement possible but low-priority.</td>
+    </tr>
+    <tr>
+      <td>notif-app-icons.<span class="grayed">getpebble.com</span></td>
+      <td>Probably provides icons for in-app notification permissions list.</td>
+      <td>Unimportant</td>
+    </tr>
+    <tr>
+      <td>health-write-api.<span class="grayed">getpebble.com</span></td>
+      <td>Sends consenting users’ health data to Pebble (for aggregate data and weekly emails)</td>
+      <td>Unimportant</td>
+    </tr>
+  </tbody>
+</table>
+
+    </div>
+</section>
+
+        <footer>
+    <div class="text-content">
+        <p>Join us on the <a href="https://www.facebook.com/FAF.UTM/">
+            Facebook page.</a></p>
+    </div>
+</footer>
+
+    </body>
+</html>
