@@ -78,9 +78,6 @@ header .headertext {
 }
 
 @media (max-width: 900px) {
-    header {
-        text-align: left;
-    }
     header .headertext {
         width: auto;
         max-width: none;
@@ -194,7 +191,7 @@ div.email-signup input[type="submit"] {
 /* --- Logo --- */
 
 #faf_logo {
-  width: 10%;
+  width: 25%;
 }
 
 /* --- Ultratron --- */
