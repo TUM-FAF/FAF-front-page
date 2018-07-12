@@ -67,7 +67,6 @@ header .sitename, header .separator, header .pagename {
     font-size: 3em;
     vertical-align: middle;
     margin: 0 0.1em;
-    text-transform: lowercase;
 }
 
 header .headertext {
@@ -380,4 +379,8 @@ hr {
     margin-right: auto;
     display: block;
     max-width: 98%;
+}
+
+.img-responsive {
+    width: 650px;
 }

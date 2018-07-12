@@ -12,7 +12,7 @@ permalink: /fafngo/
         {% for person in site.data.team %}
             <li id="person-{{person.name}}">
                 <div class="person">
-                    <img src="{{ person.avatar | prepend: "/images/avatars/" | prepend: site.baseurl | prepend: site.url }}"/>
+                    <img src="{{ person.avatar | prepend: "/assets/images/avatars/" | prepend: site.baseurl | prepend: site.url }}"/>
                     <p><strong>{{person.name}}</strong> {{person.blurb}}</p>
                 </div>
                 {% if person.bio %}
