@@ -8,7 +8,7 @@ permalink: /about/
 
 ## FAF
 
-Filiera Anglofonă "Computer Science" is a department founded as an experiment in 2001 at the Computers, Informatics and Microelectronics Faculty at the Technical University of Moldova. Basically it represents an English taught Honor's Program in Computer Science. Most of courses are taught in English, with the natural priority given to English. FAF benefits doesn't end here. Besides a Project-Based Learning curricula, we benefit also from having a FAF-only shared space where students from all years interact, spend quality time and ideate. There we have comfortable sofas, a big "round" table, WiFi and lots of other stuff
+Filiera Anglofonă "Computer Science" is a department founded as an experiment in 2001 at the Computers, Informatics and Microelectronics Faculty at the Technical University of Moldova. Basically it represents an English taught Honor's Program in Computer Science. Most of courses are taught in English, with the natural priority given to English. FAF benefits doesn't end here. Besides a Project-Based Learning curricula, we benefit also from having a FAF-only shared space where students from all years interact, spend quality time and ideate. There we have comfortable sofas, a big "round" table, WiFi and lots of other stuff.
 
 
 ### Community
