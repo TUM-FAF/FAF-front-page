@@ -17,7 +17,7 @@ That is why FAF has the most favorable development environment: the majority of 
 
 ### How to apply?
 
-In order to become a FAF student, you have to apply to ''Engineria Software'' speciality of the CIM Faculty (Computers, Informatics and Microelectronics) of the Technical University of Moldova. Descriptions of the application process and required documents are usually available on the university's official website www.utm.md. After you have to take 2 exams (Math and English).
+In order to become a FAF student, you have to apply to ''Engineria Software'' speciality of the CIM Faculty (Computers, Informatics and Microelectronics) of the Technical University of Moldova. Descriptions of the application process and required documents are usually available on the university's official website [utm.md](http://www.utm.md). After you have to take 2 exams (Math and English).
 
 Exams are not that hard to pass and you have nothing to lose if you try. For example, at the English exam you have to write down a couple of sentences and put the verbs in the brackets in their correct form and for the math part you have a small number of problems highly resembling the ones you passed in June. The big plus is that the tests don’t surpass the difficulty of the Baccalaureate exams. If you are good at math, but have troubles with English, come and take the tests, we are sure you have a high chance of getting through.
 
