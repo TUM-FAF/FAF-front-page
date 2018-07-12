@@ -1,0 +1,20 @@
+- name: "Victor Colța"
+  blurb: "Chief Executive Officer"
+  avatar: "victor-colta.jpg"
+
+- name: "Nicoleta Țîrdea"
+  blurb: "Chief Operating Officer"
+  avatar: "nicoleta-tirdea.jpg"
+
+- name: "Vasile Drumea"
+  blurb: "Chief Financial Officer"
+  avatar: "vasile-drumea.jpg"
+
+- name: "Ina Botnaru"
+  blurb: "Chief Marketing Officer"
+  avatar: "ina-botnaru.jpg"
+
+- name: "Dragoș Străinu"
+  blurb: "Chief Legal Officer"
+  avatar: "dragos-strainu.jpg"
+  bio: "Full-time Hackathoner. Also I did this website."
