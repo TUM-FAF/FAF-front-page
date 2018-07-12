@@ -1,5 +1,5 @@
 <header>
-    <img src="{{ 'faf_logo2.png' | prepend: "/images/" | prepend: site.baseurl | prepend: site.url }}" id="faf_logo">
+    <img src="{{ 'faf_logo2.png' | prepend: "/assets/images/" | prepend: site.baseurl | prepend: site.url }}" id="faf_logo">
     <span class="headertext">
         <span class="sitename"><a href="{{ "/" | prepend: site.baseurl | prepend: site.url }}">{{ site.title }}</a></span>
         {% if page.title and page.title != 'FAF front page' and page.layout != 'post' %}

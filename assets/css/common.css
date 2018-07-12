@@ -383,3 +383,7 @@ hr {
     display: block;
     max-width: 98%;
 }
+
+.img-responsive {
+    width: 650px;
+}
