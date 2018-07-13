@@ -1,0 +1,19 @@
+- name: "Diana Artiom"
+  blurb: "Chief Executive Officer"
+  avatar: "diana-artiom.jpg"
+
+- name: "Ana-Maria Brînză"
+  blurb: "Chief Operating Officer"
+  avatar: "ana-maria-brinza.jpg"
+
+- name: "Alex Burlacu"
+  blurb: "Chief Financial Officer"
+  avatar: "alex-burlacu.jpg"
+
+- name: "Corina Țîlea"
+  blurb: "Chief Marketing Officer"
+  avatar: "corina-tilea.png"
+
+- name: "Dragoș Lupei"
+  blurb: "Chief Legal Officer"
+  avatar: "dragos-lupei.jpg"
