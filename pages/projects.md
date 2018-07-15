@@ -28,6 +28,6 @@ Our parties are organized twice per year, in autumn and spring, and these includ
 
 ## FAF Lectures
 
-FAF has a lot of students that are interested in extracurricular activities and studying. If someone is good or likes some specific topic he can share his knowledge through a presentation for others students. Presentations are usually at the beginner level with theoretical part about main concepts and demo. FAF Lectures are events with friendly conversations and jokes.
+FAF students believe that we can become better by involving in extracurricular activities, where we learn from each other experiences. FAF Lectures are this kind of events, where students and alumni “bring” their best knowledge regarding relevant, innovative and useful topics in order to share it through lectures where they held presentations toward other students. Lectures are made to be simple, interesting, useful and funny, covering the main details from theory part to the demo. This is how we see efficient extracurricular studies.
 
 ![](../assets/images/lecture.jpg){:class="img-responsive"}
